@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff8dc;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.App h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.product-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.product-card {
+  height: 200%;
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  margin-left: 90px;
+  align-items: center;
+}
+
+.product-list h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  transition: 0s ease;
+  cursor: pointer;
+  background-color: white;
+}
+.product-list h3:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.price_rate {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: white;
+}
+.price_rate p {
+  background-color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.Nav_bar {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+.Nav_bar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.Nav_bar input {
+  width: 700px;
+  padding: 10px;
+  margin-right: auto;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.Nav_bar input::placeholder {
+  color: grey;
+  font-size: 15px;
+}
+
+.logo {
+  background-color: white;
+  margin-right: auto;
+}
+
+button {
+  margin-left: 5px;
+  padding: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.login {
+  color: black !important;
+  background-color: white !important;
+  font-size: 17px !important;
+}
+
+.login:hover {
+  color: orange !important;
+}

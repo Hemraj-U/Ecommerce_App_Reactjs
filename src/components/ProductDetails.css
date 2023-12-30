@@ -1,0 +1,99 @@
+.product-detail-container {
+  text-align: center;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-detail {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail h2 {
+  color: #333;
+  background-color: white;
+}
+
+.card_2 {
+  width: 45%;
+  height: 67vh;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+b {
+  background-color: white;
+}
+.card_2 p {
+  margin-top: 20px;
+  background-color: white;
+  font-size: 17px;
+}
+.product-detail-price {
+  color: rgb(255, 102, 0);
+  display: flex;
+  justify-content: left;
+  font-weight: 600;
+}
+
+.stock {
+  color: green;
+  display: flex;
+  justify-content: start;
+  font-weight: 600;
+}
+
+.brand {
+  display: flex;
+  justify-content: start;
+  font-weight: 600;
+}
+
+.category {
+  display: flex;
+  justify-content: start;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  justify-content: start;
+  font-weight: 600;
+}
+
+.buttons {
+  background-color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy {
+  background-color: orangered !important;
+}
